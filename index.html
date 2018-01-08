@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>GuestPlay Main Page</title>
+		
+		<!-- Google Icon Font -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=	"stylesheet">
+		
+		<!-- Core library -->
+		<script src="lib/guestplay.js"></script>
+		
+		<!-- Main dependencies -->
+		<link rel="stylesheet" href="lib/materialize.min.css"/>
+		<script src="lib/jquery.min.js" defer=""></script>
+		<script src="lib/materialize.min.js" defer=""></script>
+		
+		<!-- Other dependencies -->
+		<script src="lib/i18n.js" defer=""></script>
+		<script src="js/iframe.js" defer=""></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<nav class="grey darken-1" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="#" class="brand-logo" i18n="extName">
+					GuestPlay
+				</a>
+			</div>
+		</nav>
+		<h3>Work In Progress (maybe)</h3>
+		<main class="container" style="display: none;">
+			<h5><span i18n="place_choose">Choose place and click "Play"</span>:</h5>
+			<div class="video-container">
+				<iframe id="roblox"
+				src=""
+				sandbox="allow-scripts allow-same-origin"></iframe>
+			</div>
+		</main>
+		<footer class="page-footer orange">
+			<div class="container">
+				<span i18n="version">Version</span>: <span id="versionText">X.XX</span>
+				<p class="grey-text text-lighten-4">
+					If you found bug or have idea:<br>
+					Email: </strong><span class="orange-text text-lighten-3">45tanaa@gmail.com</span>
+				</p>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					UI made with <a class="orange-text text-lighten-3" href="https://materializecss.com">Materialize</a> and <a class="orange-text text-lighten-3" href="https://jquery.com/">jQuery</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
