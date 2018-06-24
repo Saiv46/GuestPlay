@@ -11,40 +11,20 @@
 		"message": "Play as guest!",
 		"description": "The description of the extension."
 	},
-	"settings": {
-		"message": "Settings",
-		"description": "Popup settings text"
-	},
-	"settingsSave": {
-		"message": "Save settings",
-		"description": "Save popup settings"
-	},
-	"settingsReset": {
-		"message": "Reset settings",
-		"description": "Reset popup settings"
-	},
-	"settingsSimpleId": {
-		"message": "Guest Number",
-		"description": "Popup Number to ID converter"
-	},
-	"settingsId": {
-		"message": "Guest ID (advanced)",
-		"description": "Popup Guest ID (advanced)"
-	},
 	"gender": {
 		"message": "Gender",
 		"description": "Popup gender settings"
 	},
 	"genderDefault": {
-		"message": "DefaultGuest",
+		"message": "Neutral (DefaultGuest)",
 		"description": "DefaultGuest gender"
 	},
 	"genderMale": {
-		"message": "BillyBloxxer",
+		"message": "Male (BillyBloxxer)",
 		"description": "BillyBloxxer gender"
 	},
 	"genderFemale": {
-		"message": "BettyBloxxer",
+		"message": "Female (BettyBloxxer)",
 		"description": "BettyBloxxer gender"
 	},
 	"play": {
@@ -52,16 +32,12 @@
 		"description": "Play as Guest"
 	},
 	"contactUs": {
-		"message": "Contact us",
-		"description": "Email to extension developer"
+		"message": "Contact us"
+	},
+	"contactUsMessage": {
+		"message": "(Describe a bug or suggest something)"
 	},
 	"version": {
 		"message": "Version"
-	},
-	"advancedSettings": {
-		"message": "Advanced settings:"
-	},
-	"settingsFormula": {
-		"message": "Guest number to ID formula (where X = guest number)"
 	}
 }

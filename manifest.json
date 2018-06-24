@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "__MSG_extName__",
-	"version": "1.4",
+	"version": "1.6",
 	"description": "__MSG_extDesc__",
 	"icons": {
 		"48": "icons/icon-48.png",
@@ -14,12 +14,11 @@
 		"default_icon": "icons/icon-96.png",
 		"default_popup": "popup.html"
 	},
-	"author": "45Green & Saiv46",
-	"homepage_url": "https://vk.com/guestarmy",
-	"options_page": "options.html",
+	"author": "GuestPlay Team",
+	"homepage_url": "https://chrome.google.com/webstore/detail/roblox-guestplay/dnmmcmjgfpdhijgikmfgicaegbgcokph/",
 	"permissions": ["tabs", "storage"],
 	"short_name": "__MSG_extNameShort__",
-	"version_name": "1.4 New year update",
+	"version_name": "1.6 - Summer update",
 	"default_locale": "en",
 	"applications": {"gecko": {"id": "{cdcccda5-0274-4d26-a9ae-a08555a8c6f1}"}}
 }

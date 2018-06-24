@@ -1,138 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf8">
-		<title>GuestPlay PopUp</title>
-		<style>html,body{width:400px;height:300px;}</style>
-		
-		<!-- Google Icon Font -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=	"stylesheet">
-		
-		<!-- Core library -->
-		<script src="lib/guestplay.js"></script>
-		
-		<!-- Main dependencies -->
-		<link rel="stylesheet" href="lib/materialize.min.css"/>
-		<script src="lib/jquery.min.js" defer=""></script>
-		<script src="lib/materialize.min.js" defer=""></script>
-		
-		<!-- Other dependencies -->
-		<script src="lib/i18n.js" defer=""></script>
-		<script src="js/popup.js" defer=""></script>
-		
+		<meta charset="utf-8"/>
+		<title>GuestPlay</title>
+		<link rel="stylesheet" href="main.css"/>
+		<script src="main.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		<nav class="grey darken-1" role="navigation">
-			<div class="nav-wrapper container">
-				<a id="logo-container" href="#" class="brand-logo" i18n="extNameShort">
-					GuestPlay
-				</a>
+		<header></header>
+		
+		<noscript><img title="y u no enabled javascript?!" style="position:fixed;width:100%;opacity:0.5" src="https://i.pinimg.com/originals/3e/48/0d/3e480dbec59180fabb56c8c31c206e70.png"></noscript>
+		
+		<main>
+			<div class="circle">
+				<svg id="play" viewBox="0 0 128 128" preserveAspectRatio="xMidYMid meet">
+					<linearGradient id="play-gradient">
+						<stop offset="0%" stop-color="#FFF"/>
+						<stop offset="100%" stop-color="#FFF"/>
+					</linearGradient>
+					<polygon points="0,0 0,128 128,64"/>
+				</svg>
 			</div>
-		</nav>
-		<div id="preloader" class="preloader-wrapper big active" style="left:35vw">
-			<div class="spinner-layer spinner-blue">
-				<div class="circle-clipper left">
-					<div class="circle"></div>
-				</div><div class="gap-patch">
-					<div class="circle"></div>
-				</div><div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-			</div>
-			<div class="spinner-layer spinner-red">
-				<div class="circle-clipper left">
-					<div class="circle"></div>
-				</div><div class="gap-patch">
-					<div class="circle"></div>
-				</div><div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-			</div>
-			<div class="spinner-layer spinner-yellow">
-				<div class="circle-clipper left">
-					<div class="circle"></div>
-				</div><div class="gap-patch">
-					<div class="circle"></div>
-				</div><div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-			</div>
-			<div class="spinner-layer spinner-green">
-				<div class="circle-clipper left">
-					<div class="circle"></div>
-				</div><div class="gap-patch">
-					<div class="circle"></div>
-				</div><div class="circle-clipper right">
-					<div class="circle"></div>
-				</div>
-			</div>
-		</div>
-		<main class="container" style="display:none">
-			<h5><span i18n="settings">Settings</span>:</h5>
-			<div class="row">
-				<div class="input-field col s12 m4">
-					<i class="material-icons prefix">perm_identity</i>
-					<input id="id_simple" type="number" data-length="4" min="0" max="9999">
-					<label for="id_simple" i18n="settingsSimpleId">Guest Number</label>
-				</div>
-				<div class="input-field col s12 m4">
-					<i class="material-icons prefix">perm_identity</i>
-					<input id="id" type="number" data-length="10">
-					<label for="id" i18n="settingsId">Guest ID (advanced)</label>
-				</div>
-				<div class="input-field col s12 m4">
-					<i class="material-icons prefix">account_circle</i>
-					<select id="gender" class="icons">
-						<option value=0 data-icon="genders/DefaultGuest.png" class="left circle" i18n="genderDefault">DefaultGuest</option>
-						<option value=1 data-icon="genders/BettyBloxxer.png" class="left circle" i18n="genderFemale">BettyBloxxer</option>
-						<option value=2 data-icon="genders/BillyBloxxer.png" class="left circle" i18n="genderMale">BillyBloxxer</option>
-					</select>
-					<label i18n="gender">Gender</label>
-				</div>
-				
-				<div class="fixed-action-btn toolbar">
-					<a class="btn-floating btn-large red">
-						<i class="large material-icons">menu</i>
-					</a>
-					<ul>
-						<li class="waves-effect waves-light">
-							<a id="playButton" href="#">
-								<i class="material-icons">play_arrow</i>
-								<span i18n="play">Play as Guest</span>
-							</a>
-						</li>
-						<li class="waves-effect waves-light">
-							<a id="saveSettings" href="#">
-								<i class="material-icons">save</i>
-								<span i18n="settingsSave">Save settings</span>
-							</a>
-						</li>
-						<li class="waves-effect waves-light">
-							<a id="resetSettings" href="#">
-								<i class="material-icons">delete_sweep</i>
-								<span i18n="settingsReset">Reset settings</span>
-							</a>
-						</li>
-						<li class="waves-effect waves-light">
-							<a id="mailto" href="#">
-								<i class="material-icons">bug_report</i>
-								<span i18n="contactUs">Contact us</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			
+			<ul id="gender">
+				<li gender=1><a href="#"></a></li>
+				<li gender=2><a href="#"></a></li>
+				<li gender=3><a href="#"></a></li>
+			</ul>
 		</main>
-		<footer class="page-footer orange">
-			<div class="container">
-				<span i18n="version">Version</span>: <span id="versionText">X.XX</span>
-			</div>
-			<div class="footer-copyright">
-				<div class="container">
-					UI made with <a class="orange-text text-lighten-3" href="https://materializecss.com">Materialize</a> and <a class="orange-text text-lighten-3" href="https://jquery.com/">jQuery</a>
-				</div>
-			</div>
+		<footer>
+			<span id="version"></span><br/>
+			<a id="mailto" href="#"></a>
 		</footer>
 	</body>
 </html>

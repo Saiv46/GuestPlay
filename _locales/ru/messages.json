@@ -1,67 +1,46 @@
 {
-	"extName": {
-		"message": "Roblox GuestPlay",
-		"description": "The title of the extension."
-	},
-	"extNameShort": {
-		"message": "GuestPlay",
-		"description": "The short title of the extension."
-	},
-	"extDesc": {
-		"message": "Играй за Гуеста!",
-		"description": "The description of the extension."
-	},
-	"settings": {
-		"message": "Настройки",
-		"description": "Popup settings text"
-	},
-	"settingsSave": {
-		"message": "Сохранить",
-		"description": "Save popup settings"
-	},
-	"settingsReset": {
-		"message": "Стереть",
-		"description": "Reset popup settings"
-	},
-	"settingsSimpleId": {
-		"message": "Номер Гуеста",
-		"description": "Popup Number to ID converter"
-	},
-	"settingsId": {
-		"message": "ID Гуеста",
-		"description": "Popup Guest ID (advanced)"
-	},
-	"gender": {
-		"message": "Пол",
-		"description": "Popup gender settings"
-	},
-	"genderDefault": {
-		"message": "Нейтральный (DefaultGuest)",
-		"description": "DefaultGuest gender"
-	},
-	"genderMale": {
-		"message": "Мужской (BillyBloxxer)",
-		"description": "BillyBloxxer gender"
-	},
-	"genderFemale": {
-		"message": "Женский (BettyBloxxer)",
-		"description": "BettyBloxxer gender"
-	},
-	"play": {
-		"message": "Играть",
-		"description": "Play as Guest"
-	},
-	"contactUs": {
-		"message": "Связаться с нами",
-		"description": "Email to extension developer"
-	},
-	"version": {
-		"message": "Версия"
-	},
-	"advancedSettings": {
-		"message": "Дополнительные настройки:"
-	},
-	"settingsFormula": {
-		"message": "Формула преобразования номер Гуеста в ID (где X = номер Гуеста)"
-	}
+    "gender": {
+        "message": "Пол",
+        "description": "Popup gender settings"
+    },
+    "contactUs": {
+        "message": "Связаться с нами",
+        "description": ""
+    },
+    "extNameShort": {
+        "message": "GuestPlay",
+        "description": "The short title of the extension."
+    },
+    "genderMale": {
+        "message": "Мужской (BillyBloxxer)",
+        "description": "BillyBloxxer gender"
+    },
+    "play": {
+        "message": "Играть",
+        "description": "Play as Guest"
+    },
+    "contactUsMessage": {
+        "message": "(Опишите баг или предложите что-нибудь)",
+        "description": ""
+    },
+    "version": {
+        "message": "Версия",
+        "description": ""
+    },
+    "extDesc": {
+        "message": "Играй за Гуеста!",
+        "description": "The description of the extension."
+    },
+    "extName": {
+        "message": "Roblox GuestPlay",
+        "description": "The title of the extension."
+    },
+    "genderDefault": {
+        "message": "Нейтральный (DefaultGuest)",
+        "description": "DefaultGuest gender"
+    },
+    "genderFemale": {
+        "message": "Женский (BettyBloxxer)",
+        "description": "BettyBloxxer gender"
+    }
 }
