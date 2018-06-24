@@ -1,2 +1,2 @@
 # GuestPlay
-### Current version: 1.4 New year update
+### Current version: 1.6 Summer update
