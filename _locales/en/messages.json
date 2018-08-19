@@ -11,6 +11,7 @@
 		"message": "Play as guest!",
 		"description": "The description of the extension."
 	},
+	
 	"gender": {
 		"message": "Gender",
 		"description": "Popup gender settings"
@@ -27,17 +28,32 @@
 		"message": "Female (BettyBloxxer)",
 		"description": "BettyBloxxer gender"
 	},
+	
 	"play": {
 		"message": "Play as Guest",
 		"description": "Play as Guest"
+	},
+	"version": {
+		"message": "Version"
 	},
 	"contactUs": {
 		"message": "Contact us"
 	},
 	"contactUsMessage": {
-		"message": "(Describe a bug or suggest something)"
+		"message": "(Describe a bug or suggest something)",
+		"description": "Sample text for Email"
 	},
-	"version": {
-		"message": "Version"
+	
+	"featured": {
+		"message": "Featured by GuestPlay",
+		"description": "Text for game page, between the title and Play button"
+	},
+	"featuredShort": {
+		"message": "Featured",
+		"description": "Short text to Games page, displays at game thumbnail on hover"
+	},
+	"blacklisted": {
+		"message": "This game is unsupported or blacklisted.\nThose games usually preventing GuestPlay users to play.\n\nContinue?",
+		"description": "Tell user that the game is unsupported"
 	}
 }

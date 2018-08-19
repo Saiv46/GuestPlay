@@ -16,10 +16,7 @@ a {
     color: #fff
 }
 
-html {	/* Yeah, that's dirty, but its work! */
-	width: 485px;
-    overflow-x: hidden;
-}
+html {overflow-x: hidden}
 
 body {
 	background: #FAFAFA;
@@ -80,6 +77,7 @@ main {
 	cursor: pointer;
 }
 #play polygon {fill: url(#play-gradient)}
+#play[active] {animation: spin 2s linear infinite}
 
 #gender li {
 	display: inline-block;
@@ -98,9 +96,9 @@ main {
 	transition: box-shadow .6s;
 }
 /* Genders */
-#gender li[gender="1"] a {background-position: 0% 0%}
-#gender li[gender="2"] a {background-position: 0% 50%}
-#gender li[gender="3"] a {background-position: 0% 100%}
+#gender li[gender="0"] a {background-position: 0% 0%}
+#gender li[gender="1"] a {background-position: 0% 50%}
+#gender li[gender="2"] a {background-position: 0% 100%}
 
 /* Gender colors */
 :root {
@@ -112,39 +110,38 @@ main {
 	--gender-female-color-white: #f2b2fb;
 }
 #play stop {transition: stop-color 1s ease}
-body[gender="1"] {background: var(--gender-default-color-white)}
-body[gender="2"] {background: var(--gender-male-color-white)}
-body[gender="3"] {background: var(--gender-female-color-white)}
+body[gender="0"] {background: var(--gender-default-color-white)}
+body[gender="1"] {background: var(--gender-male-color-white)}
+body[gender="2"] {background: var(--gender-female-color-white)}
 
-body[gender="1"] #play stop:last-of-type {stop-color: var(--gender-default-color)}
+body[gender="0"] #play stop:last-of-type,
+body[gender="0"] #play:hover stop:first-of-type
+ {stop-color: var(--gender-default-color)}
 
-body[gender="1"] #play:hover stop:first-of-type {stop-color: var(--gender-default-color)}
+body[gender="1"] #play stop:last-of-type,
+body[gender="1"] #play:hover stop:first-of-type
+ {stop-color: var(--gender-male-color)}
 
-body[gender="2"] #play stop:last-of-type {stop-color: var(--gender-male-color)}
+body[gender="2"] #play stop:last-of-type,
+body[gender="2"] #play:hover stop:first-of-type
+ {stop-color: var(--gender-female-color)}
 
-body[gender="2"] #play:hover stop:first-of-type {stop-color: var(--gender-male-color)}
-
-body[gender="3"] #play stop:last-of-type  {stop-color: var(--gender-female-color)}
-body[gender="3"] #play:hover stop:first-of-type {stop-color: var(--gender-female-color)}
-
-body[gender="1"] #gender li[gender="1"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-default-color)}
-body[gender="2"] #gender li[gender="2"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-male-color)}
-body[gender="3"] #gender li[gender="3"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-female-color)}
+body[gender="0"] #gender li[gender="0"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-default-color)}
+body[gender="1"] #gender li[gender="1"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-male-color)}
+body[gender="2"] #gender li[gender="2"] a {box-shadow: inset 0px 0px 20px 0px var(--gender-female-color)}
 
 /* Localization */
 header::before {content: "__MSG_extName__"}
-#gender::before {padding-right: .5em;content: "__MSG_gender__:"}
+#gender::before {content: "__MSG_gender__:"; padding-right: .5em}
 #version::before {content: "__MSG_version__: "}
 #mailto::before {content: "__MSG_contactUs__"}
 
 /* Animations */
 @keyframes main {
-    from {
-		transform: translateY(9em);
-		opacity: 0;
-	}
-    to {
-		transform: translateY(0);
-		opacity: 1;
-	}
+    from {transform: translateY(9em); opacity: 0}
+    to {transform: translateY(0); opacity: 1}
+}
+@keyframes spin {
+	50% {transform: rotateY(.5turn)}
+	100% {transform: rotateY(0turn)}
 }
