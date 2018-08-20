@@ -1,2 +1,2 @@
 # GuestPlay
-### Current version: 1.6 Summer update
+### Current version: 1.7 RobloxDev update

@@ -1,58 +1,58 @@
 {
     "extNameShort": {
-        "message": "GuestPlay",
+        "message": "GuestSpelen",
         "description": "The short title of the extension."
     },
     "extDesc": {
-        "message": "¡Jugar como invitado!",
+        "message": "Speel als guest!",
         "description": "The description of the extension."
     },
     "gender": {
-        "message": "Género",
+        "message": "Geslacht",
         "description": "Popup gender settings"
     },
     "genderDefault": {
-        "message": "Ninguno (DefaultGuest)",
+        "message": "Neutraal (StandaardGuest)",
         "description": "DefaultGuest gender"
     },
     "genderMale": {
-        "message": "Niño (BillyBloxxer)",
+        "message": "Man (BillyBloxxer)",
         "description": "BillyBloxxer gender"
     },
     "genderFemale": {
-        "message": "Niña (BettyBloxxer)",
+        "message": "Vrouw (BettyBloxxer)",
         "description": "BettyBloxxer gender"
     },
     "play": {
-        "message": "Jugar como invitado",
+        "message": "Speel als Guest",
         "description": "Play as Guest"
     },
     "version": {
-        "message": "Versión",
+        "message": "Versie",
         "description": ""
     },
     "contactUs": {
-        "message": "Contáctenos",
+        "message": "Contacteer ons",
         "description": ""
     },
     "contactUsMessage": {
-        "message": "(Describe un error o sugiere algo)",
+        "message": "(Beschrijf een fout of stel iets voor)",
         "description": "Sample text for Email"
     },
     "featured": {
-        "message": "GuestPlay recomendado",
+        "message": "GuestPlay aanbevolen",
         "description": "Text for game page, between the title and Play button"
     },
     "featuredShort": {
-        "message": "Recomendado",
+        "message": "Aanbevolen",
         "description": "Short text to Games page, displays at game thumbnail on hover"
     },
     "blacklisted": {
-        "message": "Este juego no es compatible.\nEstos juegos suelen impedir que los usuarios GuestPlay para jugar.\n\n¿Continuar?",
+        "message": "Dit spel wordt niet ondersteund.\nDie games meestal voorkomen GuestPlay gebruikers om te spelen.\n\nDoorgaan met?",
         "description": "Tell user that the game is unsupported"
     },
     "extName": {
-        "message": "Roblox GuestPlay",
+        "message": "Roblox GuestSpelen",
         "description": "The title of the extension."
     }
 }

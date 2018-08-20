@@ -1,46 +1,58 @@
 {
-    "gender": {
-        "message": "Пол",
-        "description": "Popup gender settings"
-    },
-    "contactUs": {
-        "message": "Связаться с нами",
-        "description": ""
-    },
     "extNameShort": {
         "message": "GuestPlay",
         "description": "The short title of the extension."
-    },
-    "genderMale": {
-        "message": "Мужской (BillyBloxxer)",
-        "description": "BillyBloxxer gender"
-    },
-    "play": {
-        "message": "Играть",
-        "description": "Play as Guest"
-    },
-    "contactUsMessage": {
-        "message": "(Опишите баг или предложите что-нибудь)",
-        "description": ""
-    },
-    "version": {
-        "message": "Версия",
-        "description": ""
     },
     "extDesc": {
         "message": "Играй за Гуеста!",
         "description": "The description of the extension."
     },
-    "extName": {
-        "message": "Roblox GuestPlay",
-        "description": "The title of the extension."
+    "gender": {
+        "message": "Пол",
+        "description": "Popup gender settings"
     },
     "genderDefault": {
         "message": "Нейтральный (DefaultGuest)",
         "description": "DefaultGuest gender"
     },
+    "genderMale": {
+        "message": "Мужской (BillyBloxxer)",
+        "description": "BillyBloxxer gender"
+    },
     "genderFemale": {
         "message": "Женский (BettyBloxxer)",
         "description": "BettyBloxxer gender"
+    },
+    "play": {
+        "message": "Играть",
+        "description": "Play as Guest"
+    },
+    "version": {
+        "message": "Версия",
+        "description": ""
+    },
+    "contactUs": {
+        "message": "Связаться с нами",
+        "description": ""
+    },
+    "contactUsMessage": {
+        "message": "(Опишите баг или предложите что-нибудь)",
+        "description": "Sample text for Email"
+    },
+    "featured": {
+        "message": "Рекомендовано GuestPlay",
+        "description": "Text for game page, between the title and Play button"
+    },
+    "featuredShort": {
+        "message": "Рекомендовано",
+        "description": "Short text to Games page, displays at game thumbnail on hover"
+    },
+    "blacklisted": {
+        "message": "Эта игра не поддерживается или в чёрном списке.\nЭти игры обычно препятствуют игре пользователям GuestPlay.\n\nПродолжить?",
+        "description": "Tell user that the game is unsupported"
+    },
+    "extName": {
+        "message": "Roblox GuestPlay",
+        "description": "The title of the extension."
     }
 }
