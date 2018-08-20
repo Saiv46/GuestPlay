@@ -14,18 +14,21 @@ const fetchDb = (fallback = true) => fetch(fetchUrl).then(processJson).catch(err
 
 const parseQuery = query => {
 	let obj = {};
-	query.split("&").map(v => v.split("=")).forEach(v => {obj[v[0]] = v[1]});
+	query.split("&").map(v => v.split("=")).forEach(v => {
+		obj[v[0]] = v[1]
+	});
 	return obj;
 };
 
-let featured = [], blacklist = [];
+let featured = [],
+	blacklist = [];
 
 fetchDb().then(data => {
 	featured = data.featured || featured;
 	blacklist = data.blacklist || blacklist;
 	console.debug("[GuestPlay] Ready", data);
 	let placeId = (location.pathname.match(/\/games\/(\d+)\/.+/i) || [])[1];
-	if(placeId && !isNaN(placeId) && ~featured.indexOf(placeId)){
+	if(placeId && !isNaN(placeId) && ~featured.indexOf(placeId)) {
 		document.getElementById("game-detail-page").classList.add("featured");
 	}
 });
@@ -36,5 +39,7 @@ document.querySelectorAll(".game-cards").forEach(list => new MutationObserver(mu
 		let placeId = parseInt(parseQuery(v.querySelector('.game-card-link').href).PlaceId);
 		if(~featured.indexOf(placeId)) v.classList.add("featured");
 		if(~blacklist.indexOf(placeId)) v.classList.add("blacklist");
-	})); 
-}).observe(list, {childList: true}))
+	}));
+}).observe(list, {
+	childList: true
+}))
