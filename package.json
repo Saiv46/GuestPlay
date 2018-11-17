@@ -1,0 +1,19 @@
+{
+  "name": "guestplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "eslint js --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/45Green/GuestPlay.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/45Green/GuestPlay/issues"
+  },
+  "homepage": "https://github.com/45Green/GuestPlay#readme"
+}

@@ -4,7 +4,7 @@
         "description": "The short title of the extension."
     },
     "extDesc": {
-        "message": "Играй за Гуеста!",
+        "message": "Играйте в Roblox анонимно!",
         "description": "The description of the extension."
     },
     "gender": {
@@ -25,7 +25,7 @@
     },
     "play": {
         "message": "Играть",
-        "description": "Play as Guest"
+        "description": ""
     },
     "version": {
         "message": "Версия",
@@ -40,16 +40,52 @@
         "description": "Sample text for Email"
     },
     "featured": {
-        "message": "Рекомендовано GuestPlay",
+        "message": "Лучшее для GuestPlay",
         "description": "Text for game page, between the title and Play button"
     },
-    "featuredShort": {
-        "message": "Рекомендовано",
-        "description": "Short text to Games page, displays at game thumbnail on hover"
-    },
     "blacklisted": {
-        "message": "Эта игра не поддерживается или в чёрном списке.\nЭти игры обычно препятствуют игре пользователям GuestPlay.\n\nПродолжить?",
+        "message": "Эта игра не поддерживается или находиться в чёрном списке.\nЭти игры обычно препятствуют игре пользователям GuestPlay.\n\nПродолжить?",
         "description": "Tell user that the game is unsupported"
+    },
+    "launchFailed": {
+        "message": "Не удалось запустить игру.\nПожалуйста попробуйте ещё раз или свяжитесь с разработчиками.",
+        "description": ""
+    },
+    "saveFailed": {
+        "message": "Не удалось сохранить настройки.\nПожалуйста перезагрузите страницу или свяжитесь с разработчиками.",
+        "description": ""
+    },
+    "error404": {
+        "message": "Нет доступных аккаунтов на данный момент.\nПожалуйста попробуйте ещё раз позже или смените персонажа.",
+        "description": ""
+    },
+    "error500": {
+        "message": "В GuestPlay Service возникла неопознанная ошибка.\nПожалуйста попробуйте ещё раз позже.",
+        "description": ""
+    },
+    "error503": {
+        "message": "GuestPlay Service недоступен или перегружен.\nПожалуйста заходите сюда позже.",
+        "description": ""
+    },
+    "error526": {
+        "message": "Бета-версия GuestPlay Service отключена.\nПожалуйста переключитесь на стабильную ветку GuestPlay.",
+        "description": ""
+    },
+    "autolaunchSetting": {
+        "message": "Запускать игру автоматически",
+        "description": ""
+    },
+    "compactSetting": {
+        "message": "Компактный режим",
+        "description": ""
+    },
+    "featuredSetting": {
+        "message": "Подсвечивать рекомендуемые игры",
+        "description": ""
+    },
+    "blacklistSetting": {
+        "message": "Скрывать несовместимые игры",
+        "description": ""
     },
     "extName": {
         "message": "Roblox GuestPlay",

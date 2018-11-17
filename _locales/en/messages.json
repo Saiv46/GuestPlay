@@ -8,7 +8,7 @@
 		"description": "The short title of the extension."
 	},
 	"extDesc": {
-		"message": "Play as guest!",
+		"message": "Play Roblox anonymously!",
 		"description": "The description of the extension."
 	},
 	
@@ -30,8 +30,7 @@
 	},
 	
 	"play": {
-		"message": "Play as Guest",
-		"description": "Play as Guest"
+		"message": "Play"
 	},
 	"version": {
 		"message": "Version"
@@ -48,12 +47,41 @@
 		"message": "Featured by GuestPlay",
 		"description": "Text for game page, between the title and Play button"
 	},
-	"featuredShort": {
-		"message": "Featured",
-		"description": "Short text to Games page, displays at game thumbnail on hover"
-	},
 	"blacklisted": {
 		"message": "This game is unsupported or blacklisted.\nThose games usually preventing GuestPlay users to play.\n\nContinue?",
 		"description": "Tell user that the game is unsupported"
+	},
+
+	"launchFailed": {
+		"message": "Failed to launch the game.\nPlease try again later or contact developers about that."
+	},
+	"saveFailed": {
+		"message": "Failed to save preferences.\nPlease reload this page or contact developers about that."
+	},
+
+	"error404": {
+		"message": "No accounts available now.\nPlease try again later or change the character."
+	},
+	"error500": {
+		"message": "GuestPlay Service has occured an unknown error.\nPlease try again later."
+	},
+	"error503": {
+		"message": "GuestPlay Service is unavailable or overloaded.\nPlease come back later."
+	},
+	"error526": {
+		"message": "GuestPlay BETA Service is disabled.\nPlease switch to stable version of GuestPlay."
+	},
+
+	"autolaunchSetting": {
+		"message": "Launch game automatically"
+	},
+	"compactSetting": {
+		"message": "Compact mode"
+	},
+	"featuredSetting": {
+		"message": "Highlight featured games"
+	},
+	"blacklistSetting": {
+		"message": "Hide incompatible games"
 	}
 }

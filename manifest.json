@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "__MSG_extName__",
-	"version": "1.7",
+	"version": "1.8.1",
 	"description": "__MSG_extDesc__",
 	"icons": {
 		"48": "icons/icon-48.png",
@@ -15,18 +15,21 @@
 		"default_popup": "popup.html"
 	},
 	"author": "GuestPlay Team",
-	"homepage_url": "https://chrome.google.com/webstore/detail/roblox-guestplay/dnmmcmjgfpdhijgikmfgicaegbgcokph/",
-	"permissions": ["tabs", "storage"],
+	"homepage_url": "https://asbmw-service.appspot.com/",
+	"permissions": [
+		"tabs",
+		"storage",
+		"https://asbmw-service.appspot.com/"
+	],
 	"content_scripts": [
 		{
 			"matches": ["https://*.roblox.com/games*"],
-			"css": ["featured.css"],
-			"js": ["featured.js"]
+			"css": ["css/featured.css"],
+			"js": ["js/page/database.js", "js/page/storage.js", "js/contentScript.js"]
 		}
 	],
 	"short_name": "__MSG_extNameShort__",
-	"version_name": "1.7 - RobloxDev update",
+	"version_name": "1.8 - Rthro update",
 	"default_locale": "en",
-	"applications": {"gecko": {"id": "{cdcccda5-0274-4d26-a9ae-a08555a8c6f1}"}},
-	"web_accessible_resources": ["datebase.json"]
+	"applications": {"gecko": {"id": "{cdcccda5-0274-4d26-a9ae-a08555a8c6f1}"}}
 }

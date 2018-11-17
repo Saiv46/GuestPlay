@@ -3,16 +3,22 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>GuestPlay</title>
-		<link rel="stylesheet" href="main.css"/>
-		<script src="main.js"></script>
+		<link rel="stylesheet" href="css/i18n.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<script defer src="js/page/database.js"></script>
+		<script defer src="js/page/storage.js"></script>
+		<script defer src="js/page/roblox.js"></script>
+		<script defer src="js/main.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		<header></header>
+		<header>
+			<a data-target="settings" href="#">&equiv;</a>
+		</header>
 		
 		<noscript><img title="y u no enabled javascript?!" style="position:fixed;width:100%;opacity:0.5" src="https://i.pinimg.com/originals/3e/48/0d/3e480dbec59180fabb56c8c31c206e70.png"></noscript>
 		
-		<main>
+		<main style="visibility: hidden">
 			<div class="circle">
 				<svg id="play" viewBox="0 0 128 128" preserveAspectRatio="xMidYMid meet">
 					<linearGradient id="play-gradient">
@@ -22,16 +28,37 @@
 					<polygon points="0,0 0,128 128,64"/>
 				</svg>
 			</div>
+
+			<div id="settings">
+				<span data-setting="autolaunch">
+					<input id="autolaunch__setting" type="checkbox"/>
+					<label for="autolaunch__setting"></label>
+				</span>
+				<span data-setting="compact">
+					<input id="compact__setting" type="checkbox"/>
+					<label for="compact__setting"></label>
+				</span>
+				<span data-setting="featured">
+					<input id="featured__setting" type="checkbox"/>
+					<label for="featured__setting"></label>
+				</span>
+				<span data-setting="blacklist">
+					<input id="blacklist__setting" type="checkbox"/>
+					<label for="blacklist__setting"></label>
+				</span>
+				
+			</div>
 			
-			<ul id="gender">
-				<li gender=0><a href="#"></a></li>
-				<li gender=1><a href="#"></a></li>
-				<li gender=2><a href="#"></a></li>
+			<ul>
+				<li gender-id=0><a href="#"></a></li>
+				<li gender-id=1><a href="#"></a></li>
+				<li gender-id=2><a href="#"></a></li>
 			</ul>
 		</main>
 		<footer>
 			<span id="version"></span><br/>
-			<a id="mailto" href="#"></a>
+			<a id="mailto" target="_blank" href="#"></a><br/>
+			<a id="transifex" target="_blank" href="https://www.transifex.com/roblox-guestplay/guestplay-browser/"></a>
 		</footer>
 	</body>
 </html>
