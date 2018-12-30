@@ -1,0 +1,94 @@
+{
+    "extNameShort": {
+        "message": "GuestPlay",
+        "description": "The short title of the extension."
+    },
+    "extDesc": {
+        "message": "Jouer à Roblox anonyme!",
+        "description": "The description of the extension."
+    },
+    "gender": {
+        "message": "Le sexe",
+        "description": "Popup gender settings"
+    },
+    "genderDefault": {
+        "message": "Normal (DefaultGuest)",
+        "description": "DefaultGuest gender"
+    },
+    "genderMale": {
+        "message": "Mâle (BillyBloxxer)",
+        "description": "BillyBloxxer gender"
+    },
+    "genderFemale": {
+        "message": "Femelle (BettyBloxxer)",
+        "description": "BettyBloxxer gender"
+    },
+    "play": {
+        "message": "Jouer",
+        "description": ""
+    },
+    "version": {
+        "message": "Version",
+        "description": ""
+    },
+    "contactUs": {
+        "message": "Contactez nous",
+        "description": ""
+    },
+    "contactUsMessage": {
+        "message": "(Décrivez un bug ou suggérez quelque chose)",
+        "description": "Sample text for Email"
+    },
+    "featured": {
+        "message": "En vedette par GuestPlay",
+        "description": "Text for game page, between the title and Play button"
+    },
+    "blacklisted": {
+        "message": "Ce jeu est non pris en charge ou sur une liste noire.\nCes jeux empêchent généralement les utilisateurs de GuestPlay de jouer.\n\nContinuer?",
+        "description": "Tell user that the game is unsupported"
+    },
+    "launchFailed": {
+        "message": "Le jeu n'a pas réussi a démarrer.\nVeuillez réessayer plus tard ou contacter les développeur.",
+        "description": ""
+    },
+    "saveFailed": {
+        "message": "Impossible de sauvegarder vos préférences.\nS'il vous plait Actualiser la page ou contacter les développeurs.",
+        "description": ""
+    },
+    "error404": {
+        "message": "Aucun compte n'est disponible pour le moment.\nS'il vous plait réessayez plus tard ou changer le sexe.",
+        "description": ""
+    },
+    "error500": {
+        "message": "GuestPlay Service a rencontré une erreur inconnue.\nVeuillez réessayer plus tard.",
+        "description": ""
+    },
+    "error503": {
+        "message": "GuestPlay Service n'est pas disponible à présent.\nVeuillez revenir plus tard.",
+        "description": ""
+    },
+    "error526": {
+        "message": "GuestPlay BETA Service est désactivé.\nVeuillez utiliser la dernière version de GuestPlay.",
+        "description": ""
+    },
+    "autolaunchSetting": {
+        "message": "Lancer le jeu automatiquement",
+        "description": ""
+    },
+    "compactSetting": {
+        "message": "Mode compacter",
+        "description": ""
+    },
+    "featuredSetting": {
+        "message": "Mettez en valeur les jeux en vedette",
+        "description": ""
+    },
+    "blacklistSetting": {
+        "message": "Masquer les jeux incompatible",
+        "description": ""
+    },
+    "extName": {
+        "message": "Roblox GuestPlay (JoueurVIsiteur)",
+        "description": "The title of the extension."
+    }
+}

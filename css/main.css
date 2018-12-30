@@ -87,6 +87,25 @@ ul::before {padding-right: .5em}
 #settings {display: none}
 .visible {display: initial!important}
 
+aside {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	z-index: 999;
+}
+
+#last_stream {
+	width: 25%;
+    background: rgba(0, 0, 0, .1);
+    margin: .25em;
+    margin-left: 0;
+    padding: .25em;
+    border-radius: 0 12px 12px 0;
+}
+#last_stream:hover {
+	transform: scale(1.1);
+}
+
 #play {
 	padding: 1.5em 1em 1.5em 2em;
 	width: 100%;

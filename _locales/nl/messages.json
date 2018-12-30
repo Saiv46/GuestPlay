@@ -1,0 +1,94 @@
+{
+    "extNameShort": {
+        "message": "GuestSpelen",
+        "description": "The short title of the extension."
+    },
+    "extDesc": {
+        "message": "Speel Roblox Onbekend!",
+        "description": "The description of the extension."
+    },
+    "gender": {
+        "message": "Geslacht",
+        "description": "Popup gender settings"
+    },
+    "genderDefault": {
+        "message": "Neutraal (StandaardGuest)",
+        "description": "DefaultGuest gender"
+    },
+    "genderMale": {
+        "message": "Man (BillyBloxxer)",
+        "description": "BillyBloxxer gender"
+    },
+    "genderFemale": {
+        "message": "Vrouw (BettyBloxxer)",
+        "description": "BettyBloxxer gender"
+    },
+    "play": {
+        "message": "Speel",
+        "description": ""
+    },
+    "version": {
+        "message": "Versie",
+        "description": ""
+    },
+    "contactUs": {
+        "message": "Contacteer ons",
+        "description": ""
+    },
+    "contactUsMessage": {
+        "message": "(Beschrijf een fout of stel iets voor)",
+        "description": "Sample text for Email"
+    },
+    "featured": {
+        "message": "GuestPlay aanbevolen",
+        "description": "Text for game page, between the title and Play button"
+    },
+    "blacklisted": {
+        "message": "Dit spel wordt niet ondersteund.\nDie games meestal voorkomen GuestPlay gebruikers om te spelen.\n\nDoorgaan met?",
+        "description": "Tell user that the game is unsupported"
+    },
+    "launchFailed": {
+        "message": "Gefaald om de game op te starten.\nAub probeer het later nog is of contacteer onze Developers over dit.",
+        "description": ""
+    },
+    "saveFailed": {
+        "message": "Gefaald om de perfrecences op te slaan.\nAub Laad het pagina opnieuw of contacteer een Developer over dit.",
+        "description": ""
+    },
+    "error404": {
+        "message": "Geen accounts actief.\nAub probeer later opnieuw. Of verander je karakter.",
+        "description": ""
+    },
+    "error500": {
+        "message": "GuestPlay servies heeft een Onbekende Error.\nKom later opnieuw.",
+        "description": ""
+    },
+    "error503": {
+        "message": "GuestPlay Servies is niet bereikbaar voor nu of overspoeld/DDOssed.\nAub kom later opnieuw.",
+        "description": ""
+    },
+    "error526": {
+        "message": "GuestPlay BETA servies is Uigeschakeld.\nAub Verander je versie van je roblox om GuestPlay te kunnen gebruiken.",
+        "description": ""
+    },
+    "autolaunchSetting": {
+        "message": "Start spel automatisch.",
+        "description": ""
+    },
+    "compactSetting": {
+        "message": "Compact Mode.",
+        "description": ""
+    },
+    "featuredSetting": {
+        "message": "Markeer favoriete spelletjes",
+        "description": ""
+    },
+    "blacklistSetting": {
+        "message": "Verberg verboden spelletjes",
+        "description": ""
+    },
+    "extName": {
+        "message": "Roblox GuestSpelen",
+        "description": "The title of the extension."
+    }
+}

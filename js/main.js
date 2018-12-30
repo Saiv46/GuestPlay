@@ -38,6 +38,10 @@ const play = () => (async () => {
 document.getElementById("play").title = ext.i18n.getMessage("play");
 document.getElementById("play").addEventListener("click", play);
 
+document.getElementById("last_stream").addEventListener("click", () => 
+	ext.tabs.create({url: "https://www.youtube.com/channel/UCGg08djXMdOKSHPOj8SUP_w/live"})
+);
+
 document.querySelectorAll("a[data-target]").forEach(v => v.
 	addEventListener("click", e => document.
 		getElementById(e.target.getAttribute("data-target")).

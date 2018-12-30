@@ -1,0 +1,94 @@
+{
+    "extNameShort": {
+        "message": "GuestPlay",
+        "description": "The short title of the extension."
+    },
+    "extDesc": {
+        "message": "Juega Roblox Anonimamente!",
+        "description": "The description of the extension."
+    },
+    "gender": {
+        "message": "Género",
+        "description": "Popup gender settings"
+    },
+    "genderDefault": {
+        "message": "Ninguno (DefaultGuest)",
+        "description": "DefaultGuest gender"
+    },
+    "genderMale": {
+        "message": "Niño (BillyBloxxer)",
+        "description": "BillyBloxxer gender"
+    },
+    "genderFemale": {
+        "message": "Niña (BettyBloxxer)",
+        "description": "BettyBloxxer gender"
+    },
+    "play": {
+        "message": "Jugar",
+        "description": ""
+    },
+    "version": {
+        "message": "Versión",
+        "description": ""
+    },
+    "contactUs": {
+        "message": "Contáctenos",
+        "description": ""
+    },
+    "contactUsMessage": {
+        "message": "(Describe un error o sugiere algo)",
+        "description": "Sample text for Email"
+    },
+    "featured": {
+        "message": "GuestPlay recomendado",
+        "description": "Text for game page, between the title and Play button"
+    },
+    "blacklisted": {
+        "message": "Este juego no es compatible.\nEstos juegos suelen impedir que los usuarios GuestPlay para jugar.\n\n¿Continuar?",
+        "description": "Tell user that the game is unsupported"
+    },
+    "launchFailed": {
+        "message": "Error al lanzar el Juego. Porfavor intenta nuevamente más tarde o contacta a los desarrolladores acerca de esto",
+        "description": ""
+    },
+    "saveFailed": {
+        "message": "Hubo un error al guardar las preferencias. porfavor recarga esta pagina o sino contacta a los desarrolladores acerca del problema",
+        "description": ""
+    },
+    "error404": {
+        "message": "No Hay cuentas disponibles ahora Mismo. Porfavor Intenta Despues \no Cambia el personaje ",
+        "description": ""
+    },
+    "error500": {
+        "message": "El Servicio de GuestPlay a encontrado un error. Porfavor inteta nuevamente Mas tarde",
+        "description": ""
+    },
+    "error503": {
+        "message": "El Sevicio GuestPlay no se encuentra disponible o esta\nsobrecargado. vuelve mas rato",
+        "description": ""
+    },
+    "error526": {
+        "message": "GuestPlay BETA servicio esta desactivado. porfavor cambia a la version estable de GuestPlay",
+        "description": ""
+    },
+    "autolaunchSetting": {
+        "message": "Lanzar Juego Automaticamente",
+        "description": ""
+    },
+    "compactSetting": {
+        "message": "Modo Compacto",
+        "description": ""
+    },
+    "featuredSetting": {
+        "message": "Resaltar Juegos Destacados (Traduccion hecha al español por pawersmile)",
+        "description": ""
+    },
+    "blacklistSetting": {
+        "message": "Esconder Juegos no compatibles",
+        "description": ""
+    },
+    "extName": {
+        "message": "Roblox GuestPlay",
+        "description": "The title of the extension."
+    }
+}

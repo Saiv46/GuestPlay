@@ -63,7 +63,7 @@
 		"message": "No accounts available now.\nPlease try again later or change the character."
 	},
 	"error500": {
-		"message": "GuestPlay Service has occured an unknown error.\nPlease try again later."
+		"message": "GuestPlay Service has occurred an unknown error.\nPlease try again later."
 	},
 	"error503": {
 		"message": "GuestPlay Service is unavailable or overloaded.\nPlease come back later."
