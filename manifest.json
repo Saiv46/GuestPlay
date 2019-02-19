@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "__MSG_extName__",
-	"version": "1.8.2",
+	"version": "1.8.3",
 	"description": "__MSG_extDesc__",
 	"icons": {
 		"48": "icons/icon-48.png",
@@ -29,7 +29,7 @@
 		}
 	],
 	"short_name": "__MSG_extNameShort__",
-	"version_name": "1.8(.2) - Farewell",
+	"version_name": "1.8(.3) - Shutdown",
 	"default_locale": "en",
 	"applications": {"gecko": {"id": "{cdcccda5-0274-4d26-a9ae-a08555a8c6f1}"}}
 }

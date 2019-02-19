@@ -1,8 +1,6 @@
 header::before {content: "__MSG_extName__"}
-ul::before {content: "__MSG_gender__:"}
 #version::before {content: "__MSG_version__: "}
 #mailto::before {content: "__MSG_contactUs__"}
-#transifex::before {content: "Help us translate GuestPlay to your language"}
 
 label[for="autolaunch__setting"]::before {content: "__MSG_autolaunchSetting__"}
 label[for="compact__setting"]::before {content: "__MSG_compactSetting__"}

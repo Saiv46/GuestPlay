@@ -1,32 +1,33 @@
-==GuestPlay==
-===Changelog===
-(!) - Important update
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+# GuestPlay [UNMAINTAINED]
+```
+When Roblox starts to remove guest mode, most of their community and developers has been frustrating. Most "Play as a Guest" apps/exploits at that time has terrible UI and were very suspicious, GuestPlay had all the advantages of competitors and developer support for free.
 
-====1.5 (Half-update) ====
-* [μFIX] Reduced load time
-* [FIX] Fixed "BettyBloxxer" gender selection
+After a (relatively) long time, Roblox has fixed their auth system and the Guests are officially dead, now GuestPlay has changed forever and this is not that extension what developers imagined before.
 
-====1.4 (New Year update) ====
-* [NEW] Spain translation
-* [FIX] Fix untranslated strings
-* [FIX] Fixed the number to ID convertor
-* [μFIX] The i18n script doesn't needs a jQuery
-* [μFIX] Re-written scripts & updated dependencies
+Thank you for supporting us by using GuestPlay, but sometimes you just have to let it go, keep *Powering Imagination* (TM).
 
-====1.3====
-* [FIX] (!) Fixed most annoying and long-living bugs
-* [FIX] (!) Moved "Play as Guest" button from game page to popup
-* [FIX] Improved UI
-* [NEW] Settings save/reset button (if something went wrong with settings)
-* [NEW] (!) Added localization support
-====1.2====
-* [REMOVE] Removed "Save" button
-* [FIX] (!) Popup and settings now working
-* [NEW] New icons (compressed already)
-* [NEW] "Guest number to ID formula" now added to settings
-* [NEW] (!) Complete cross-browser support
-====1.1====
-* [FIX] Icons got compressed
-* [NEW] Added popup and settings (not working)
-====1.0====
-* [INITAL] Prototype
+~ Alexander Ivanov and Evgenya Gorshkova - GuestPlay developers
+```
+
+# GuestPlay End Of Life (EOL)
+* (Un)official announcement about GuestPlay's future: 31.12.2018
+(https://youtu.be/ohKZRQxPDyI?t=946)
+* Official announcement about EOL: 19.02.2019
+~~(And repo deprecation, because @45Green#5469 didn't make a commit about that)~~
+* GuestPlay Service shutdown (pre-EOL): *12.04.2019*
+* GuestPlay removal from Chrome Web Store: **13.04.2019**
+
+## Installing
+1. Clone this repo / Download ZIP
+2. Go to `chrome://extensions`
+3. Click the *LOAD UNPACKED* button and select the folder
+4. ???
+5. **PROFIT!**
+
+## Contributing
+Feel free to create an *Issue* to suggest something or report a bug.
+
+## Changelog
+### 19.02.2019: GuestPlay is unmaintained
+### 16.11.2018: =< 1.7 versions are deprecated

@@ -18,8 +18,7 @@ const play = () => (async () => {
 	if(document.getElementById("play").disabled) return;
 	document.getElementById("play").setAttribute('active', 1);
 	
-	let placeId = await currentTab(),
-	gender = await window.storage.gender;
+	let placeId = await currentTab();
 	await list.ready;
 
 	if(~list.blacklist.indexOf(placeId) &&
@@ -28,7 +27,7 @@ const play = () => (async () => {
 		i18n.getMessage("blacklisted"))
 	) throw new Error("This game is blacklisted");
 
-	await window.startGame(placeId, gender)
+	await window.startGame(placeId, 0)
 })().catch(err => {
 	console.error(err);
 	document.getElementById("play").removeAttribute('active');
@@ -38,9 +37,9 @@ const play = () => (async () => {
 document.getElementById("play").title = ext.i18n.getMessage("play");
 document.getElementById("play").addEventListener("click", play);
 
-document.getElementById("last_stream").addEventListener("click", () => 
-	ext.tabs.create({url: "https://www.youtube.com/channel/UCGg08djXMdOKSHPOj8SUP_w/live"})
-);
+document.querySelectorAll(".link[href]").forEach(v => v.
+	addEventListener("click", e => ext.tabs.create({url: e.target.getAttribute("href")})
+));
 
 document.querySelectorAll("a[data-target]").forEach(v => v.
 	addEventListener("click", e => document.
@@ -66,19 +65,6 @@ document.getElementById("mailto").href =
 document.getElementById("version").innerText =
 	ext.runtime.getManifest().version_name;
 
-const genderI18nIds = ["genderDefault", "genderMale", "genderFemale"];
-
-document.querySelectorAll('[gender-id]').forEach(v => {
-	let i = v.getAttribute("gender-id");
-	v.childNodes[0].title = ext.i18n.getMessage(genderI18nIds[i]);
-	v.childNodes[0].addEventListener("click", () => {
-		window.storage.gender = i;
-		document.body.setAttribute("gender", i);
-	});
-});
-
-window.storage.gender.then(v => document.body.setAttribute("gender", v));
-window.storage.compact.then(v => v && document.body.setAttribute("compact"));
 window.storage.autolaunch.then(async v => {
 	if(!v) return;
 	await currentTab(false);
@@ -102,8 +88,8 @@ console.log("%cRoblox GuestPlay", `
 		rgba(219,33,243,.93) 85%,
 		rgba(219,33,243,1) 100%
 	)`);
-console.log(`Github: https://github.com/45Green/GuestPlay
-Developer bug report: https://github.com/45Green/GuestPlay/issues
+console.log(`%cEND OF LIFE: 13.02.2019`, 'color:#F00;text-align:center;font-size:x-large');
+console.log(`Github: https://github.com/45Green/GuestPlay (not maintained)
 Our discord server: https://discord.gg/zBrmTwu
 
 Brought to you with ❤️ by GuestPlay Team.
