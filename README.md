@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 # GuestPlay [UNMAINTAINED]
 ```
@@ -31,3 +32,19 @@ Feel free to create an *Issue* to suggest something or report a bug.
 ## Changelog
 ### 19.02.2019: GuestPlay is unmaintained
 ### 16.11.2018: =< 1.7 versions are deprecated
+=======
+# GuestPlay
+
+## Installing
+1. Clone this repo / Download ZIP
+2. Go to `chrome://extensions`
+3. Click the *LOAD UNPACKED* button and select the folder
+4. ???
+5. **PROFIT!**
+
+## Contributing
+Feel free to create an *Issue* to suggest something or report a bug.
+
+## Changelog
+### 16.11.2018: =< 1.7 versions are deprecated
+>>>>>>> 010218ded4921b55bb646cb5f231cc5670662df5
